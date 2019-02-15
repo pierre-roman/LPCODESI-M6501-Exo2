@@ -3,5 +3,5 @@ public abstract class CartePaiement {
         System.out.println("un achat de " + montant + " euros a été effectué");
     }
 
-    public abstract void autorisePaiement(int montant);
+    public abstract boolean autorisePaiement(int montant);
 }
